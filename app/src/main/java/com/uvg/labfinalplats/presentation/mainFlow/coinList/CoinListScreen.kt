@@ -45,7 +45,7 @@ CoinItem_List( onCoinClick)
 
 @Composable
 fun CoinItem_List(onCoinClick: (Int) -> Unit){
-    Spacer(modifier = Modifier.height(5x.dp))
+    Spacer(modifier = Modifier.height(5.dp))
     Column (modifier = Modifier.clickable { onCoinClick(2) }){
         Row(modifier = Modifier
             .fillMaxWidth()
