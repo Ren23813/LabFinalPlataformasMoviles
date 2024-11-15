@@ -7,7 +7,7 @@ import com.uvg.labfinalplats.repositories.network.util.Result
 
 interface CoinAPI{
 suspend fun getAllCoins(): Result<EntryCoinListDTO,NetworkError>
-suspend fun getCoinByID(): Result<EntryCoinProfileDTO,NetworkError>
+suspend fun getCoinByID(id:String): Result<EntryCoinProfileDTO,NetworkError>
 
 }
 
